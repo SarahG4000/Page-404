@@ -1,0 +1,55 @@
+/*style de fond , imag de fond*/
+body{
+    width: 1200px;
+    margin: auto;
+}
+
+.fond{
+    background-color:rgba(225, 0, 0, 0.4);
+    height: 1167px;
+    border: 1px solid red;
+    border-radius: 18%;
+    width: 1209px;
+}
+
+/*style boutton*/
+
+.fondB{
+    background-color:rgba(225, 0, 0, 0.5);
+    position: absolute;
+    text-align: center;
+    margin-top: 567px;
+    margin-left: 446px;
+    border-radius: 8px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    text-decoration: none;
+    color:rgb(75, 2, 2);
+}
+
+.button{
+
+    font-size: 30px;
+    border: 1px solid red;
+    width: 333px;
+    height: 19px;
+    border-radius: 8px;
+
+}
+
+/*style titre*/
+
+h1{
+    position: absolute;
+    font-size: 77px;
+    color:rgb(75, 2, 2);
+    margin-top: 23px;
+    margin-left: 403px;
+}
