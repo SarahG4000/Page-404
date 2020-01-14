@@ -53,6 +53,7 @@ h1{
    /* color:rgb(75, 2, 2);*/
     margin-top: 23px;
     margin-left: 403px;
+    border-radius: 20px;
 }
 
 /*style animation, ici est regrouper tout ce qu'il faut 
@@ -65,6 +66,7 @@ div,h1{
     -webkit-animation-duration:10s; 
     animation-name: neon;
     animation-duration: 10s;
+    
   }
 
   @keyframes neon {
@@ -73,4 +75,10 @@ div,h1{
       50%{background-color: rgb(117, 1, 1);}
       75%{background-color: rgb(6, 38, 141);}
       100%{background-color: rgb(51, 153, 4);}
+  }
+
+  .yourElement {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
   }
